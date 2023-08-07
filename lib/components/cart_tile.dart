@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 class CartTile extends StatelessWidget {
   final Coffee coffee;
-  void Function()? onPressed;
-  CartTile({super.key, required this.coffee, required this.onPressed});
+  final void Function()? onPressed;
+  const CartTile({super.key, required this.coffee, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {

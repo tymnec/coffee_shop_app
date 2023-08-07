@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 class CoffeeTile extends StatelessWidget {
   final Coffee coffee;
-  void Function()? onPressed;
-  CoffeeTile({super.key, required this.coffee, required this.onPressed});
+  final void Function()? onPressed;
+  const CoffeeTile({super.key, required this.coffee, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
